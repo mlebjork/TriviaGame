@@ -111,7 +111,7 @@ var game = {
 
     card.append("<h3>Correct answers: " + this.correct + "</h3>");
     card.append("<h3>Incorrect answers: " + this.incorrect + "</h3>");
-    card.append("<h3>Unanswered: " + (questions.length - (this.incorrect + this.correct)) + "</h3>");
+    // card.append("<h3>Unanswered: " + (questions.length - (this.incorrect + this.correct)) + "</h3>");
     card.append("<br><button id='start-over'>Start over?</button>");
   },
 
